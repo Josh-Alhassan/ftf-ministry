@@ -1,11 +1,14 @@
 import React from "react";
-import Header from "../components/Header";
+import Header from "../sections/Header";
+import Generosity from "../sections/Generosity";
+
+import style from "./Home.module.css";
 
 function Home() {
   return (
-    <div>
-      Home
+    <div className={style.homeContainer}>
       <Header />
+      <Generosity />
     </div>
   );
 }
