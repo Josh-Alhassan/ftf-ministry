@@ -1,0 +1,7 @@
+.moreInfoCard {
+  max-width: 65%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-self: center;
+}

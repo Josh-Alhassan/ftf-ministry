@@ -1,3 +1,8 @@
 .generosityContainer {
   height: 100vh;
 }
+
+.outOfPageFlow {
+  position: relative;
+  top: -10%;
+}

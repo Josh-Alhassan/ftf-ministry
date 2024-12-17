@@ -1,0 +1,18 @@
+.button {
+  padding: 12px 40px;
+  border: 2px solid #ff5632;
+  border-radius: 15px;
+  background-color: #fff;
+
+  font-size: 18px;
+
+  font-family: inherit;
+
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.button:hover {
+  background: #ff5632;
+  color: #fff;
+}

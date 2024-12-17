@@ -17,7 +17,7 @@ function Header() {
           obidient to the faith for his name sake.
         </p>
 
-        <PrimaryButton label="LEARN MORE ABOUT &rarr;" />
+        <PrimaryButton>LEARN MORE ABOUT &rarr; </PrimaryButton>
       </div>
     </div>
   );
