@@ -1,5 +1,32 @@
 .headerContainer {
-  padding: 90px 350px;
-  background-color: orange;
+  padding: 50px 350px;
   height: 100vh;
+  background-image: url("../../public/assets/header-image.jpg");
+  background-position: top;
+  background-size: cover;
+
+  color: #fff;
+}
+
+.headerHeroSection {
+  margin-top: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerHeroHeader {
+  font-family: "Alegreya", serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+.headerHeroText {
+  margin-top: 40px;
+  font-size: 20px;
+  text-align: center;
+
+  margin-bottom: 100px;
 }
