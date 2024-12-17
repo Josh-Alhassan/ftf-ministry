@@ -4,6 +4,7 @@ import Generosity from "../sections/Generosity";
 
 import style from "./Home.module.css";
 import SermonLibrary from "../sections/SermonLibrary";
+import HeavenOnEarth from "../sections/HeavenOnEarth";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Header />
       <Generosity />
       <SermonLibrary />
+      <HeavenOnEarth />
     </div>
   );
 }

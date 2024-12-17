@@ -1,0 +1,14 @@
+.heavenOnEarth {
+  padding: 100px 300px;
+  background-image: url("../assets/heaven-on-earth.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.heavenOnEarthLabel {
+  font-size: 48px;
+  font-family: "Alegreya";
+
+  text-align: center;
+  color: #ffffff;
+}
