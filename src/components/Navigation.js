@@ -3,6 +3,7 @@ import MenuList from "../utilities/MenuList";
 
 import style from "./Navigation.module.css";
 import LogoIcon from "../utilities/LogoIcon";
+import { Link } from "react-router-dom";
 
 const menuItems1 = [
   { name: "About", href: "/about" },
@@ -20,7 +21,9 @@ function Navigation() {
   return (
     <div className={style.navigation}>
       <MenuList menuItems={menuItems1} />
-      <LogoIcon style={{ color: "#fff" }} />
+      <Link to="/">
+        <LogoIcon style={{ color: "#fff" }} />
+      </Link>
       <MenuList menuItems={menuItems2} />
     </div>
   );

@@ -1,14 +1,15 @@
 import React from "react";
 
 import style from "./MenuList.module.css";
+import { Link } from "react-router-dom";
 
 function MenuList({ menuItems }) {
   return (
     <div className={style.navigation}>
       {menuItems.map((item) => (
-        <a key={item.name} href={item.href} className={style.listItem}>
+        <Link key={item.name} to={item.href} className={style.listItem}>
           {item.name}
-        </a>
+        </Link>
       ))}
     </div>
   );
