@@ -10,9 +10,11 @@
 
   text-transform: uppercase;
   font-weight: 500;
+
+  cursor: pointer;
 }
 
-.button:hover {
+/* .button:hover {
   background: #ff5632;
   color: #fff;
-}
+} */
