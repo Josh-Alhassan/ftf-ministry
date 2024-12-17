@@ -1,0 +1,35 @@
+.sermonLibraryContainer {
+  padding: 100px 300px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
+  gap: 50px;
+}
+
+.sermonImage {
+  width: 522px;
+  height: 512px;
+}
+
+.sermonDetail {
+  max-width: 500px;
+}
+
+.sermonLabel {
+  font-size: 14px;
+  font-family: "Alegreya";
+
+  margin-bottom: 30px;
+}
+
+.sermonHeading {
+  font-size: 30px;
+  font-family: "Alegreya";
+
+  margin-bottom: 30px;
+}
+
+.sermonParagraph {
+  margin-bottom: 100px;
+}
