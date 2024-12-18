@@ -2,7 +2,6 @@ import React from "react";
 import style from "./Header.module.css";
 import Navigation from "../components/Navigation";
 import PrimaryButton from "../utilities/PrimaryButton";
-// import MoreInfoCard from "../components/MoreInfoCard";
 
 function Header() {
   return (
@@ -19,10 +18,6 @@ function Header() {
         </p>
 
         <PrimaryButton>LEARN MORE ABOUT &rarr; </PrimaryButton>
-
-        {/* <div className={style.outOfPageFlow}>
-          <MoreInfoCard />
-        </div> */}
       </div>
     </div>
   );

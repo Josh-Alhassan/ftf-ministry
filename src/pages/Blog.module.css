@@ -1,0 +1,9 @@
+.blog {
+  /* background-color: #333333; */
+  background: url("../assets/faith-declaration-1.jpg");
+
+  background-size: cover;
+  background-position: center;
+
+  padding: 50px 300px;
+}
