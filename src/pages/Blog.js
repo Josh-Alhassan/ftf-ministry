@@ -1,28 +1,38 @@
 import React from "react";
-import style from "./Blog.module.css";
+import PropTypes from "prop-types";
+import styles from "./Blog.module.css";
 import Navigation from "../components/Navigation";
 import SecondaryHeader from "../utilities/SecondaryHeader";
 import BlogPage from "../sections/BlogPage";
 
-function Blog() {
+const Blog = ({ title }) => {
   return (
-    <>
-      <div className={style.blog}>
-        <Navigation />
+    <div className={styles.blog}>
+      <Navigation />
 
-        <div style={{ padding: "90px", textAlign: "center" }}>
-          <SecondaryHeader
-            textTransform="capitalize"
-            color="#FFF"
-            textAlign="center"
-          >
-            Blog Page
-          </SecondaryHeader>
-        </div>
-      </div>
-      <BlogPage />
-    </>
+      <header className={styles.pageHeader}>
+        <SecondaryHeader
+          textTransform="capitalize"
+          color="#FFF"
+          textAlign="center"
+        >
+          {title}
+        </SecondaryHeader>
+      </header>
+
+      <main>
+        <BlogPage />
+      </main>
+    </div>
   );
-}
+};
+
+Blog.propTypes = {
+  title: PropTypes.string,
+};
+
+Blog.defaultProps = {
+  title: "Blog Page",
+};
 
 export default Blog;
