@@ -1,21 +1,30 @@
 import React from "react";
 import SecondaryHeader from "../utilities/SecondaryHeader";
+import Navigation from "../components/Navigation";
 
 function ELibrary() {
   return (
     <div
       style={{
-        height: "100vh",
         backgroundColor: "#333333",
 
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        padding: "50px 350px",
       }}
     >
-      <SecondaryHeader textAlign="center" color="#fff">
-        Coming Soon!
-      </SecondaryHeader>
+      <Navigation />
+
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          height: "840px",
+        }}
+      >
+        <SecondaryHeader textAlign="center" color="#fff">
+          Coming Soon!
+        </SecondaryHeader>
+      </div>
     </div>
   );
 }
