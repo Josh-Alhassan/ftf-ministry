@@ -7,23 +7,24 @@ import BlogPage from "../sections/BlogPage";
 
 const Blog = ({ title }) => {
   return (
-    <div className={styles.blog}>
-      <Navigation />
+    <>
+      <div className={styles.blog}>
+        <Navigation />
 
-      <header className={styles.pageHeader}>
-        <SecondaryHeader
-          textTransform="capitalize"
-          color="#FFF"
-          textAlign="center"
-        >
-          {title}
-        </SecondaryHeader>
-      </header>
-
+        <header className={styles.pageHeader}>
+          <SecondaryHeader
+            textTransform="capitalize"
+            color="#FFF"
+            textAlign="center"
+          >
+            {title}
+          </SecondaryHeader>
+        </header>
+      </div>
       <main>
         <BlogPage />
       </main>
-    </div>
+    </>
   );
 };
 

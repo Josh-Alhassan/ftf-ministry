@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import style from "./Header.module.css";
 import Navigation from "../components/Navigation";
 import PrimaryButton from "../utilities/PrimaryButton";
@@ -22,5 +23,12 @@ function Header() {
     </div>
   );
 }
+
+Header.propTypes = {
+  title: PropTypes.string,
+  description: PropTypes.string,
+  buttonText: PropTypes.string,
+  onButtonClick: PropTypes.func,
+};
 
 export default Header;
