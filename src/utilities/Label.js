@@ -1,6 +1,6 @@
 import React from "react";
 
-function Label({ children, color }) {
+function Label({ children, color, mb = "15px" }) {
   return (
     <h4
       style={{
@@ -9,6 +9,7 @@ function Label({ children, color }) {
         textTransform: "uppercase",
         color: color,
         fontWeight: "100",
+        marginBottom: mb,
       }}
     >
       {children}

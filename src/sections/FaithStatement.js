@@ -9,7 +9,9 @@ function FaithStatement() {
   return (
     <div className={style.faithSection}>
       <Label color="#FFFFFF"> What we Believe</Label>
-      <SecondaryHeader color="#FFFFFF">Our Faith Statement</SecondaryHeader>
+      <SecondaryHeader color="#FFFFFF">
+        Our Faith <br /> Statement
+      </SecondaryHeader>
       <FaithStatementList />
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 
-function SecondaryHeader({ children, color }) {
+function SecondaryHeader({ children, color, mb = "15px" }) {
   return (
     <h2
       style={{
@@ -8,7 +8,7 @@ function SecondaryHeader({ children, color }) {
         color: color,
         fontSize: "48px",
         fontFamily: "Alegreya",
-        width: "264px",
+        marginBottom: mb,
       }}
     >
       {children}

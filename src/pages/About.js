@@ -3,6 +3,7 @@ import style from "./About.module.css";
 import AboutHeader from "../sections/AboutHeader";
 import VisionStatement from "../sections/VisionStatement";
 import FaithStatement from "../sections/FaithStatement";
+import CoreValues from "../sections/CoreValues";
 
 function About() {
   return (
@@ -24,6 +25,7 @@ function About() {
       />
 
       <FaithStatement />
+      <CoreValues />
     </div>
   );
 }
