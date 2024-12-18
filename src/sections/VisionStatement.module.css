@@ -1,0 +1,31 @@
+.visionStatement {
+  padding: 120px 350px;
+
+  font-family: "Alegreya";
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 100px;
+}
+
+.visionTitle {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.mainTitle {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.subTitle {
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.visionDescription {
+  font-size: 22px;
+  font-weight: 600;
+}
