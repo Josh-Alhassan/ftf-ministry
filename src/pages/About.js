@@ -2,6 +2,7 @@ import React from "react";
 import style from "./About.module.css";
 import AboutHeader from "../sections/AboutHeader";
 import VisionStatement from "../sections/VisionStatement";
+import FaithStatement from "../sections/FaithStatement";
 
 function About() {
   return (
@@ -21,6 +22,8 @@ function About() {
         description="We exist to Win, Equip and Deploy (WED) supernatural believers everywhere taking over every sphere."
         backgroundColor="#F7F7F7"
       />
+
+      <FaithStatement />
     </div>
   );
 }

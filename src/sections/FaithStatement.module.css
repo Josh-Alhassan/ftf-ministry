@@ -1,0 +1,10 @@
+.faithSection {
+  padding: 170px 400px;
+  background-image: url("../assets/faith-declaration.jpg");
+  background-position: top;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
