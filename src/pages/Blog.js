@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styles from "./Blog.module.css";
+import style from "./Blog.module.css";
 import Navigation from "../components/Navigation";
 import SecondaryHeader from "../utilities/SecondaryHeader";
 import BlogPage from "../sections/BlogPage";
@@ -8,22 +8,20 @@ import BlogPage from "../sections/BlogPage";
 const Blog = ({ title }) => {
   return (
     <>
-      <div className={styles.blog}>
+      <div className={style.blog}>
         <Navigation />
 
-        <header className={styles.pageHeader}>
+        <div style={{ padding: "90px", textAlign: "center" }}>
           <SecondaryHeader
             textTransform="capitalize"
             color="#FFF"
             textAlign="center"
           >
-            {title}
+            Blog Page
           </SecondaryHeader>
-        </header>
+        </div>
       </div>
-      <main>
-        <BlogPage />
-      </main>
+      <BlogPage />
     </>
   );
 };

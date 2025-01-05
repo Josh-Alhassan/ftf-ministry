@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import ELibrary from "./pages/ELibrary";
+import LeadPastor from "./pages/LeadPastor";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/library" element={<ELibrary />} />
+        <Route path="/pastor" element={<LeadPastor />} />
       </Routes>
     </BrowserRouter>
   );
