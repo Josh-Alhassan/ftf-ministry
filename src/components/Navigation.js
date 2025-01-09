@@ -14,7 +14,7 @@ const MENU_ITEMS = {
   secondary: [
     { name: "Our Pastor", href: "/pastor" },
     { name: "Contact", href: "/contact" },
-    { name: "Give", href: "/donate", highlight: true },
+    { name: "Give", href: "/give", highlight: true },
   ],
 };
 

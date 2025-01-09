@@ -4,7 +4,8 @@
 
 .leadPastorCard {
   width: 600px;
-  background-color: #333333;
+  /* background-color: #333333; */
+  text-align: justify;
 }
 
 .leadPastorImage {
@@ -18,4 +19,48 @@
 }
 
 .pastorContactCard {
+}
+
+.fullName {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 22px;
+  color: #686868;
+  text-transform: uppercase;
+}
+
+.position {
+  font-size: 18px;
+  color: #686868;
+  font-weight: 300;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  /* font-size: 16px;
+  color: #686868;
+  font-weight: 300; */
+  margin-bottom: 16px;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.socialLink {
+  font-size: 12px;
+  color: #686868;
+  padding: 10px 20px;
+  border: 1px solid #d9d9d9;
+}
+
+.socialLink:hover {
+  background-color: #ff5c35;
+  color: white;
 }
