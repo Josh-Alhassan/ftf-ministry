@@ -1,0 +1,30 @@
+.projectOfferingContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  column-gap: 150px;
+
+  padding: 100px 350px;
+}
+
+.projectOfferingTitle {
+  font-family: Alegreya, Sans, sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.projectOfferingParagraph {
+  font-size: 16px;
+  font-weight: 400;
+
+  margin-bottom: 25px;
+}
+
+.paragraphOfferingSubTitle {
+  color: #4c4c4c;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: Alegreya;
+  font-weight: 700;
+}

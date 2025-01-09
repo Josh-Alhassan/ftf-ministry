@@ -3,6 +3,8 @@ import style from "./GIve.module.css";
 import SecondaryHeader from "../utilities/SecondaryHeader";
 import Navigation from "../components/Navigation";
 import Offering from "../sections/Offering";
+import ProjectOffering from "../sections/ProjectOffering";
+import Footer from "../sections/Footer";
 
 function GIve() {
   return (
@@ -31,6 +33,7 @@ function GIve() {
       <main className={style.giveMain}>
         <Offering />
       </main>
+      <Footer />
     </>
   );
 }
