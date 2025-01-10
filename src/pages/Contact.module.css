@@ -5,6 +5,57 @@
   background-position: center;
 
   padding: 50px 350px;
+  font-family: Alegreya;
 
   color: #fff;
+}
+
+.contactMain {
+  background-color: #1e232b;
+  padding: 100px 20px;
+}
+
+.contactWrapper {
+  background: #efefef;
+
+  padding: 20px;
+  width: 70%;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contactAddress {
+  padding: 80px;
+}
+
+.contactVenue {
+  color: #686868;
+  font-size: 22px;
+  font-family: Alegreya;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.contactAddressPhone {
+  font-size: 30px;
+  color: #4c4c4c;
+  margin-bottom: 15px;
+  font-family: Alegreya;
+}
+
+.contactForm {
+  padding: 40px;
+}
+
+.contactUs {
+  padding-top: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: Alegreya;
+  text-transform: uppercase;
 }
