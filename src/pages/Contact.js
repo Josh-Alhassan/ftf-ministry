@@ -74,29 +74,47 @@ function Contact() {
               09:00 AM.
             </p>
           </div>
-          <div>Contact Image</div>
+          <div className={styles.contactImage}></div>
           <div className={styles.contactForm}>
             <h3 className={styles.contactUs}>Contact us</h3>
 
-            <div className={styles.firstName}>
-              <label name="firstname">First Name</label>
-              <input type="text" name="firstname" />
-            </div>
+            <form
+              action="https://formspree.io/f/moqyqzqk"
+              method="POST"
+              className={styles.contactFormInputs}
+            >
+              <input
+                className={styles.formInput}
+                type="text"
+                name="firstname"
+                placeholder="NAME"
+              />
+              <input
+                className={styles.formInput}
+                type="email"
+                name="email"
+                placeholder="EMAIL"
+              />
+              <input
+                className={styles.formInput}
+                type="text"
+                name="phone"
+                placeholder="PHONE"
+              />
 
-            <div className={styles.email}>
-              <label name="email">Email</label>
-              <input type="email" name="email" />
-            </div>
+              <textarea
+                className={styles.formInput}
+                name="message"
+                rows="5"
+                placeholder="MESSAGE"
+              ></textarea>
 
-            <div className={styles.phoneNumber}>
-              <label name="phone">Phone</label>
-              <input type="text" name="phone" />
-            </div>
-
-            <div className={styles.firstName}>
-              <label name="message">Message</label>
-              <textarea name="message" rows="5"></textarea>
-            </div>
+              <input
+                type="submit"
+                value="SEND A MESSAGE"
+                className={styles.formButton}
+              />
+            </form>
           </div>
         </section>
       </main>
