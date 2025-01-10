@@ -8,6 +8,7 @@ import Blog from "./pages/Blog";
 import ELibrary from "./pages/ELibrary";
 import LeadPastor from "./pages/LeadPastor";
 import GIve from "./pages/GIve";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/library" element={<ELibrary />} />
         <Route path="/pastor" element={<LeadPastor />} />
-        <Route path="/contact" element={<LeadPastor />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/give" element={<GIve />} />
       </Routes>
     </BrowserRouter>

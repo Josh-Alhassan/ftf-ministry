@@ -63,7 +63,13 @@ const LeadPastor = () => {
       <div className={style.blog}>
         <Navigation />
         <div className={styles.hero}>
-          <Label color="#fff" mb="50px">
+          <Label
+            color="#fff"
+            mb="50px"
+            style={{
+              textAlign: "center",
+            }}
+          >
             Our Prophet
           </Label>
           <SecondaryHeader

@@ -2,7 +2,6 @@ import React from "react";
 import Navigation from "../components/Navigation";
 
 import style from "./AboutHeader.module.css";
-import { PrefetchPageLinks } from "react-router-dom";
 
 function AboutHeader() {
   return (
