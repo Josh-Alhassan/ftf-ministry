@@ -3,3 +3,41 @@
   background-color: #1e232b;
   color: #fff;
 }
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+.title {
+  color: #ab815a;
+  font-size: 22px;
+  font-family: Alegreya;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.paragraph2 {
+  text-align: center;
+  margin-bottom: 15px;
+  width: 250px;
+}

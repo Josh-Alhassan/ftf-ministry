@@ -6,6 +6,7 @@ import styles from "./Contact.module.css";
 import Navigation from "../components/Navigation";
 
 import style from "../sections/AboutHeader.module.css";
+import Footer from "../sections/Footer";
 
 function Contact() {
   return (
@@ -118,6 +119,8 @@ function Contact() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 }
