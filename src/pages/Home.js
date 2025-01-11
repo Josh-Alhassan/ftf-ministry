@@ -11,10 +11,10 @@ function Home() {
   return (
     <div className={style.homeContainer}>
       <Header />
-      <Generosity />
-      <SermonLibrary />
-      <HeavenOnEarth />
-      <Footer />
+      {/* <Generosity /> */}
+      {/* <SermonLibrary /> */}
+      {/* <HeavenOnEarth /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -8,9 +8,9 @@ import SecondaryButton from "../utilities/SecondaryButton";
 function Generosity() {
   return (
     <div className={style.externalContainer}>
-      <div className={style.outOfPageFlow}>
+      {/* <div className={style.outOfPageFlow}>
         <MoreInfoCard />
-      </div>
+      </div> */}
       <div className={style.generosityContainer}>
         <div className={style.generositySection}>
           <div className={style.generosityIcon}>

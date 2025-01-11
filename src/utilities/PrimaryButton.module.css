@@ -13,3 +13,24 @@
   color: #fff;
   background-color: #ff5c35;
 }
+
+@media screen and (max-width: 1024px) {
+  .button {
+    padding: 15px 29px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .button {
+    padding: 15px 35px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .button {
+    padding: 10px 19px;
+    font-size: 12px;
+  }
+}
