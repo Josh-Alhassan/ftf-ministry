@@ -1,7 +1,7 @@
 .navigation {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 100px;
 }
 
 .listItem {
@@ -17,4 +17,9 @@
   color: #ff5c35;
   border-bottom: 5px solid #ff5c35;
   transition: ease 0.2s;
+}
+
+.active {
+  color: #ff5c35;
+  border-bottom: 5px solid #ff5c35;
 }

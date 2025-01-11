@@ -4,9 +4,7 @@ import "boxicons";
 
 import SecondaryHeader from "../utilities/SecondaryHeader";
 import Navigation from "../components/Navigation";
-import Label from "../utilities/Label";
 import Footer from "../sections/Footer";
-
 import style from "./Blog.module.css";
 import styles from "./LeadPastor.module.css";
 
@@ -63,15 +61,6 @@ const LeadPastor = () => {
       <div className={style.blog}>
         <Navigation />
         <div className={styles.hero}>
-          <Label
-            color="#fff"
-            mb="50px"
-            style={{
-              textAlign: "center",
-            }}
-          >
-            Our Prophet
-          </Label>
           <SecondaryHeader
             textTransform="uppercase"
             color="#FFF"
@@ -84,7 +73,7 @@ const LeadPastor = () => {
 
       <div className={styles.leadPastor}>
         <div className={styles.leadPastorCard}>
-          <div className={styles.leadPastorImage}>Image to be here</div>
+          <div className={styles.leadPastorImage}></div>
           <PastorDetails
             name="Pst Isah David Moh'd"
             position="Global Lead Pastor"

@@ -5,6 +5,9 @@ import MenuList from "../utilities/MenuList";
 import LogoIcon from "../utilities/LogoIcon";
 import style from "./Navigation.module.css";
 
+import ftf from "../assets/logo-3-preview.png";
+import SvgComponent from "../utilities/SvgComponent";
+
 const MENU_ITEMS = {
   primary: [
     { name: "About", href: "/about" },
@@ -23,7 +26,7 @@ function Navigation() {
     <div className={style.navigation}>
       <MenuList menuItems={MENU_ITEMS.primary} />
       <Link to="/">
-        <LogoIcon style={{ color: "#fff" }} />
+        <img src={ftf} alt="ftf" className={style.logo} />
       </Link>
       <MenuList menuItems={MENU_ITEMS.secondary} />
     </div>
