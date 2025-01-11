@@ -4,13 +4,15 @@
 
 .generosityContainer {
   height: auto;
-  padding: 50px 350px;
+  padding: 50px 150px;
   padding-bottom: 100px;
 }
 
 .outOfPageFlow {
+  /* display: flex;
+  justify-content: center; */
   position: relative;
-  top: -110px;
+  top: -150px;
 }
 
 .generosityIcon {
@@ -49,4 +51,37 @@
 .generosityScripture {
   font-size: 22px;
   color: #1e232b;
+}
+
+@media screen and (max-width: 1024px) {
+  .generosityContainer {
+    padding: 100px 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .generosityContainer {
+    padding: 0 50px 50px 50px;
+  }
+  .generosityPassage {
+    font-size: 41px;
+  }
+
+  .generosityScripture {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .generosityContainer {
+    height: auto;
+    padding: 0px 25px 50px 25px;
+  }
+  .generosityPassage {
+    font-size: 30px;
+  }
+
+  .generosityScripture {
+    font-size: 13px;
+  }
 }

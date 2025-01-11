@@ -29,4 +29,31 @@
   font-size: 14px;
   color: #626974;
   line-height: 1.6;
+  font-family: Alegreya;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 70px 70px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+  }
+
+  .cardHeadingSecondary {
+    font-size: 14px;
+  }
+
+  .cardHeadingPrimary {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .card {
+    padding: 25px 25px;
+  }
 }

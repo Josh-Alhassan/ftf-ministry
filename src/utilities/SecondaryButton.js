@@ -3,7 +3,12 @@ import PropTypes from "prop-types";
 
 import style from "./SecondaryButton.module.css";
 
-function SecondaryButton({ children, style: customStyle, hoverStyle }) {
+function SecondaryButton({
+  children,
+  style: customStyle,
+  hoverStyle,
+  marginBottom,
+}) {
   const [isHovered, setIsHovered] = useState(false);
 
   // Merge styles, with hover style taking precedence when hovering
@@ -14,6 +19,7 @@ function SecondaryButton({ children, style: customStyle, hoverStyle }) {
     <button
       className={style.button}
       style={customStyle}
+      marginBottom={marginBottom}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

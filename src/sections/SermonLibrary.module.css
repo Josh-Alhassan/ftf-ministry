@@ -1,5 +1,5 @@
 .sermonLibraryContainer {
-  padding: 100px 300px;
+  padding: 100px;
 
   display: grid;
   grid-template-columns: repeat(2, 500px);
@@ -31,4 +31,80 @@
 
 .sermonParagraph {
   margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .sermonLibraryContainer {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    padding: 50px;
+  }
+
+  .sermonImage {
+    height: 400px;
+    width: auto;
+  }
+
+  .sermonParagraph {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .sermonLibraryContainer {
+    grid-template-columns: repeat(1, 500px);
+    padding: 100px 0;
+  }
+
+  .sermonImage {
+    height: 500px;
+    width: auto;
+  }
+
+  .sermonParagraph {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .sermonLibraryContainer {
+    padding: 50px;
+    grid-template-columns: repeat(1, 300px);
+  }
+  .sermonImage {
+    height: 300px;
+  }
+
+  .sermonDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sermonHeading {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .sermonParagraph {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .sermonLibraryContainer {
+    padding: 25px;
+    grid-template-columns: repeat(1, 300px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sermonLibraryContainer {
+    padding: 25px;
+    grid-template-columns: repeat(1, 250px);
+  }
 }

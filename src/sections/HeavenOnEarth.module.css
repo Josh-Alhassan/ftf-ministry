@@ -1,5 +1,5 @@
 .heavenOnEarth {
-  padding: 100px 300px;
+  padding: 100px;
   background-image: url("../assets/heaven-on-earth.jpg");
   background-size: cover;
   background-position: center;
@@ -11,4 +11,19 @@
 
   text-align: center;
   color: #ffffff;
+}
+
+@media screen and (max-width: 769px) {
+  .heavenOnEarthLabel {
+    font-size: 41px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .heavenOnEarth {
+    padding: 50px 25px;
+  }
+  .heavenOnEarthLabel {
+    font-size: 30px;
+  }
 }

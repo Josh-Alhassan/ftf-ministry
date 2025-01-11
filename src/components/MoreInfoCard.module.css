@@ -1,9 +1,22 @@
 .moreInfoCard {
-  max-width: 65%;
+  max-width: 57%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
   justify-self: center;
 
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* margin: 0 auto; */
+}
+
+@media screen and (max-width: 1024px) {
+  .moreInfoCard {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .moreInfoCard {
+    grid-template-columns: 1fr;
+  }
 }

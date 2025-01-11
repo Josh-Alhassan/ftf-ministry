@@ -11,9 +11,9 @@ function Home() {
   return (
     <div className={style.homeContainer}>
       <Header />
-      {/* <Generosity /> */}
-      {/* <SermonLibrary /> */}
-      {/* <HeavenOnEarth /> */}
+      <Generosity />
+      <SermonLibrary />
+      <HeavenOnEarth />
       {/* <Footer /> */}
     </div>
   );
