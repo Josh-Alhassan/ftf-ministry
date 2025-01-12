@@ -1,5 +1,5 @@
 .visionStatement {
-  padding: 120px 350px;
+  padding: 120px 150px;
 
   font-family: "Alegreya";
 
@@ -28,4 +28,65 @@
 .visionDescription {
   font-size: 22px;
   font-weight: 600;
+  color: #686868;
+}
+
+@media screen and (max-width: 1024px) {
+  .visionStatement {
+    padding: 100px 100px;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .visionStatement {
+    padding: 80px 50px;
+    /* grid-template-columns: 1fr; */
+    column-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .visionStatement {
+    padding: 100px 70px;
+    grid-template-columns: 1fr;
+    column-gap: 0px;
+  }
+
+  .visionTitle {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .mainTitle {
+    font-size: 29px;
+    font-weight: 500;
+  }
+
+  .subTitle {
+    font-size: 12px;
+  }
+
+  .visionDescription {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .visionStatement {
+    padding: 80px 20px;
+  }
+
+  .mainTitle {
+    font-size: 24px;
+  }
+
+  .subTitle {
+    font-size: 10px;
+  }
+
+  .visionDescription {
+    font-size: 16px;
+  }
 }
