@@ -4,8 +4,11 @@
   font-family: "Alegreya";
 
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 400px 400px;
   column-gap: 100px;
+
+  width: 80%;
+  margin: 0 auto;
 }
 
 .visionTitle {
@@ -16,7 +19,7 @@
 
 .mainTitle {
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .subTitle {
@@ -33,6 +36,7 @@
 
 @media screen and (max-width: 1024px) {
   .visionStatement {
+    width: 100%;
     padding: 100px 100px;
     grid-template-columns: 1fr 2fr;
   }
