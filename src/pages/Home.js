@@ -14,7 +14,7 @@ function Home() {
       <Generosity />
       <SermonLibrary />
       <HeavenOnEarth />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

@@ -1,12 +1,14 @@
 .footer {
-  padding: 100px 300px;
+  padding: 100px;
   background-color: #1e232b;
   color: #fff;
 }
 
 .footerContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
 }
 
 .logo {
@@ -39,4 +41,26 @@
   text-align: center;
   margin-bottom: 15px;
   width: 250px;
+}
+
+@media screen and (max-width: 769px) {
+  .footer {
+    padding: 50px;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title,
+  .paragraph {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    padding: 70px 20px;
+  }
 }
