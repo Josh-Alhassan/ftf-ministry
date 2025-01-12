@@ -3,7 +3,7 @@
 
   background-size: cover;
   background-position: bottom;
-  padding: 50px 350px;
+  /* padding: 50px 350px; */
   color: #fff;
 }
 
@@ -27,15 +27,39 @@
 .aboutHeaderLabel {
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .aboutHeaderTitle {
   font-size: 70px;
   text-transform: uppercase;
   text-align: center;
+  font-weight: 300;
 }
 
 .aboutHeaderParagraph {
   margin-top: 15px;
+}
+
+@media screen and (max-width: 769px) {
+  .aboutHeaderJumbo {
+    max-width: 80%;
+    padding-top: 150px;
+  }
+
+  .aboutHeaderTitle {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .aboutHeaderTitle {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .aboutHeaderTitle {
+    font-size: 30px;
+  }
 }
