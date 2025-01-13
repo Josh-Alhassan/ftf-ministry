@@ -7,6 +7,7 @@ import Navigation from "../components/Navigation";
 import Footer from "../sections/Footer";
 import style from "./Blog.module.css";
 import styles from "./LeadPastor.module.css";
+import PrimaryHeader from "../utilities/PrimaryHeader";
 
 // Reusable SocialLink Component
 const SocialLink = ({ href, name, type, animation = "tada", size = "sm" }) => (
@@ -60,10 +61,12 @@ const LeadPastor = () => {
     <>
       <div className={style.blog}>
         {/* <Navigation /> */}
-        <div className={styles.hero}>
+        {/* <div className={styles.hero}>
           <p className={styles.ourProphet}>Our Prophet</p>
           <h1 className={styles.globalLeadPastor}>Our Global Lead Pastor</h1>
-        </div>
+        </div> */}
+
+        <PrimaryHeader subTitle="Our Prophet" title="Our Global Lead Pastor" />
       </div>
 
       <div className={styles.leadPastor}>

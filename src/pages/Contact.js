@@ -7,17 +7,17 @@ import Navigation from "../components/Navigation";
 
 import style from "../sections/AboutHeader.module.css";
 import Footer from "../sections/Footer";
+import PrimaryHeader from "../utilities/PrimaryHeader";
 
 function Contact() {
   return (
     <>
       <div className={styles.contactContainer}>
-        <Navigation />
+        {/* <Navigation /> */}
         <div className={style.aboutHeaderJumbo}>
           <h4 className={style.aboutHeaderLabel}>Contact Us</h4>
 
           <h2 className={style.aboutHeaderTitle}>Get Connected with us</h2>
-          <p className={style.aboutHeaderParagraph}></p>
         </div>
       </div>
       <main className={styles.contactMain}>

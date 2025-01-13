@@ -1,18 +1,12 @@
-.leadPastor {
-  /* padding: 50px 300px; */
-}
-
-.hero {
-  /* padding-top: 100px; */
-  /* background: orange; */
+/* .hero {
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
   padding: 150px 0;
-}
-
+} */
+/* 
 .ourProphet {
   color: #ffffff;
   font-size: 14px;
@@ -29,7 +23,7 @@
   width: 40%;
   text-align: center;
   font-weight: 300;
-}
+} */
 
 .heroHeader {
   font-size: 71px;
@@ -109,9 +103,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .globalLeadPastor {
+  /* .globalLeadPastor {
     width: 45%;
-  }
+  } */
 
   .leadPastorCard {
     width: 70%;
@@ -120,13 +114,13 @@
 }
 
 @media screen and (max-width: 769px) {
-  .hero {
+  /* .hero {
     padding: 100px 0;
   }
   .globalLeadPastor {
     font-size: 60px;
     width: 60%;
-  }
+  } */
 
   .leadPastor {
     padding: 50px;
@@ -137,10 +131,10 @@
 }
 
 @media screen and (max-width: 448px) {
-  .globalLeadPastor {
+  /* .globalLeadPastor {
     font-size: 40px;
     width: 77%;
-  }
+  } */
 
   .leadPastor {
     padding: 20px;

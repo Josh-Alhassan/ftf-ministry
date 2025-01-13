@@ -4,14 +4,14 @@
   background-size: cover;
   background-position: center;
 
-  padding: 50px 350px;
+  /* padding: 50px 350px; */
   font-family: Alegreya;
 
   color: #fff;
 }
 
 .contactMain {
-  background-color: rgb(30, 35, 43, 0.9);
+  background-color: #1e232b;
   padding: 100px 20px;
 }
 
@@ -107,4 +107,117 @@
 .formButton:hover {
   background-color: #ff5c35;
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .contactMain {
+    padding: 50px 20px;
+  }
+  .contactWrapper {
+    width: 100%;
+  }
+
+  .contactAddress {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .contactMain {
+    padding: 100px 20px;
+  }
+
+  .contactAddress {
+    padding: 20px;
+  }
+
+  .contactVenue {
+    font-size: 20px;
+  }
+
+  .contactAddressPhone {
+    font-size: 25px;
+  }
+
+  .contactForm {
+    padding: 20px;
+  }
+
+  .contactUs {
+    font-size: 25px;
+  }
+
+  .formInput {
+    font-size: 18px;
+  }
+
+  .formButton {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .contactWrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr 1fr;
+  }
+  .contactAddress {
+    padding: 70px 20px;
+  }
+
+  .contactVenue {
+    font-size: 16px;
+    text-align: left;
+    width: 50%;
+  }
+
+  .contactAddressPhone {
+    font-size: 18px;
+  }
+
+  .contactForm {
+    padding: 20px;
+  }
+
+  .contactUs {
+    font-size: 20px;
+  }
+
+  .formInput {
+    font-size: 16px;
+  }
+
+  .formButton {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  /* .contactAddress {
+    padding: 50px 20px;
+  }
+
+  .contactVenue {
+    font-size: 18px;
+  }
+
+  .contactAddressPhone {
+    font-size: 20px;
+  } */
+
+  .contactForm {
+    padding: 15px;
+  }
+
+  .contactUs {
+    font-size: 20px;
+  }
+
+  .formInput {
+    font-size: 16px;
+  }
+
+  .formButton {
+    font-size: 16px;
+  }
 }
