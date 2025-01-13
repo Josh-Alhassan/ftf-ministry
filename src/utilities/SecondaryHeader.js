@@ -7,6 +7,8 @@ function SecondaryHeader({
   mb = "15px",
   textTransform = "uppercase",
   textAlign = "left",
+  fontWeight = "600",
+  fontSize = "48px",
 }) {
   return (
     <h2
@@ -17,6 +19,8 @@ function SecondaryHeader({
         fontFamily: "Alegreya",
         marginBottom: mb,
         textAlign: textAlign,
+        fontWeight: fontWeight,
+        fontSize: fontSize,
       }}
     >
       {children}

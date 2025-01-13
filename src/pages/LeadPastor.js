@@ -59,21 +59,16 @@ const LeadPastor = () => {
   return (
     <>
       <div className={style.blog}>
-        <Navigation />
+        {/* <Navigation /> */}
         <div className={styles.hero}>
-          <SecondaryHeader
-            textTransform="uppercase"
-            color="#FFF"
-            textAlign="center"
-          >
-            Our Global <br /> Lead Pastor
-          </SecondaryHeader>
+          <p className={styles.ourProphet}>Our Prophet</p>
+          <h1 className={styles.globalLeadPastor}>Our Global Lead Pastor</h1>
         </div>
       </div>
 
       <div className={styles.leadPastor}>
         <div className={styles.leadPastorCard}>
-          <div className={styles.leadPastorImage}></div>
+          <div className={styles.leadPastorImage}>{/* Image is here */}</div>
           <PastorDetails
             name="Pst Isah David Moh'd"
             position="Global Lead Pastor"

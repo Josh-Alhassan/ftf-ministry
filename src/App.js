@@ -18,7 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/library" element={<ELibrary />} />
-        <Route path="/pastor" element={<LeadPastor />} />
+        <Route path="/our-pastor" element={<LeadPastor />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/give" element={<GIve />} />
       </Routes>
