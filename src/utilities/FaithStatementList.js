@@ -17,7 +17,7 @@ function FaithStatementList() {
   ];
 
   return (
-    <ul>
+    <ul style={{ marginBottom: "15px", marginLeft: "30px" }}>
       {lists.map((item, idx) => (
         <li
           key={idx}
@@ -26,7 +26,6 @@ function FaithStatementList() {
             fontSize: "16px",
             fontWeight: "600",
             marginBottom: "10px",
-            marginLeft: "20px",
             color: "#FFF",
             maxWidth: "475px",
           }}

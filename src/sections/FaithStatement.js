@@ -8,11 +8,11 @@ import FaithStatementList from "../utilities/FaithStatementList";
 function FaithStatement() {
   return (
     <div className={style.faithSection}>
-      <Label color="#FFFFFF"> What we Believe</Label>
-      <SecondaryHeader color="#FFFFFF">
-        Our Faith <br /> Statement
-      </SecondaryHeader>
-      <FaithStatementList />
+      <div className={style.faithStatement}>
+        <Label color="#FFFFFF"> What we Believe</Label>
+        <SecondaryHeader color="#FFFFFF">Our Faith Statement</SecondaryHeader>
+        <FaithStatementList />
+      </div>
     </div>
   );
 }

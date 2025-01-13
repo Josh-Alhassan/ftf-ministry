@@ -1,0 +1,17 @@
+.secondaryHeader {
+  font-size: 48px;
+  width: 45%;
+}
+
+@media screen and (max-width: 769px) {
+  .secondaryHeader {
+    font-size: 41px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .secondaryHeader {
+    font-size: 29px;
+    width: 100%;
+  }
+}

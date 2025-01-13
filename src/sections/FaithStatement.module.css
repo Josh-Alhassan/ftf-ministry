@@ -1,10 +1,43 @@
 .faithSection {
-  padding: 170px 400px;
+  padding: 170px 0px;
   background-image: url("../assets/faith-declaration.jpg");
   background-position: top;
   background-size: cover;
+}
 
+.faithStatement {
+  width: 50%;
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  /* background-color: orange; */
+  padding: 20px 32px;
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  .faithStatement {
+    width: 60%;
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .faithStatement {
+    width: 70%;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .faithSection {
+    padding: 100px 0px;
+  }
+
+  .faithStatement {
+    width: 100%;
+    margin-left: 0px;
+    gap: 10px;
+  }
 }

@@ -18,16 +18,16 @@ function About() {
         Spirit."
         backgroundColor="#FFFFFF"
       />
-      <VisionStatement
-        label="How we intend to do it"
-        mainTitle="Mission Statement"
-        description="We exist to Win, Equip and Deploy (WED) supernatural believers everywhere taking over every sphere."
-        backgroundColor="#F7F7F7"
-      />
+      <div style={{ backgroundColor: "#F7F7F7" }}>
+        <VisionStatement
+          label="How we intend to do it"
+          mainTitle="Mission Statement"
+          description="We exist to Win, Equip and Deploy (WED) supernatural believers everywhere taking over every sphere."
+        />
+      </div>
 
-      {/* <FaithStatement /> */}
+      <FaithStatement />
       {/* <CoreValues /> */}
-      <Footer />
     </div>
   );
 }

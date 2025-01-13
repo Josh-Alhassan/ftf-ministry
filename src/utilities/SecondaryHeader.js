@@ -1,4 +1,5 @@
 import React from "react";
+import style from "./SecondaryHeader.module.css";
 
 function SecondaryHeader({
   children,
@@ -9,10 +10,10 @@ function SecondaryHeader({
 }) {
   return (
     <h2
+      className={style.secondaryHeader}
       style={{
         textTransform: textTransform,
         color: color,
-        fontSize: "48px",
         fontFamily: "Alegreya",
         marginBottom: mb,
         textAlign: textAlign,
