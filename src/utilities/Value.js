@@ -1,5 +1,7 @@
 import React from "react";
 
+import style from "../components/Values.module.css";
+
 function Value({ backgroundColor, label }) {
   return (
     <div
@@ -11,8 +13,8 @@ function Value({ backgroundColor, label }) {
       }}
     >
       <h2
+        className={style.value}
         style={{
-          fontSize: "48px",
           fontFamily: "Alegreya",
           fontWeight: "500",
           textTransform: "uppercase",

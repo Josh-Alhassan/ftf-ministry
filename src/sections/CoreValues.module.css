@@ -1,4 +1,22 @@
 .coreValuesContainer {
-  padding: 150px 300px;
+  padding: 150px;
   background-color: #dddddd;
+}
+
+@media screen and (max-width: 1024px) {
+  .coreValuesContainer {
+    padding: 100px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .coreValuesContainer {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .coreValuesContainer {
+    padding: 20px;
+  }
 }

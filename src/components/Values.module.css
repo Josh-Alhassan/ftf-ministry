@@ -1,10 +1,35 @@
 .values {
-  /* background-color: orange; */
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 
   column-gap: 30px;
   row-gap: 5px;
+}
+
+.value {
+  font-size: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .values {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .values {
+    grid-template-columns: 1fr;
+  }
+
+  .value {
+    font-size: 41px;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .value {
+    font-size: 30px;
+  }
 }

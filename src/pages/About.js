@@ -27,7 +27,8 @@ function About() {
       </div>
 
       <FaithStatement />
-      {/* <CoreValues /> */}
+      <CoreValues />
+      <Footer />
     </div>
   );
 }
