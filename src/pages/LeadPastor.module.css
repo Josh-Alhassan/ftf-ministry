@@ -143,4 +143,8 @@
   .leadPastorCard {
     width: 100%;
   }
+
+  .paragraph {
+    text-align: left;
+  }
 }
