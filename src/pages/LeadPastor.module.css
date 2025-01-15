@@ -45,7 +45,7 @@
   background: url("../assets/papa-3-transformed.jpeg");
 
   background-size: cover;
-  background-position: center;
+  background-position: top;
 
   display: flex;
   align-items: center;
@@ -103,10 +103,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-  /* .globalLeadPastor {
-    width: 45%;
-  } */
-
   .leadPastorCard {
     width: 70%;
     margin-left: 0;
@@ -114,14 +110,6 @@
 }
 
 @media screen and (max-width: 769px) {
-  /* .hero {
-    padding: 100px 0;
-  }
-  .globalLeadPastor {
-    font-size: 60px;
-    width: 60%;
-  } */
-
   .leadPastor {
     padding: 50px;
   }
@@ -131,11 +119,6 @@
 }
 
 @media screen and (max-width: 448px) {
-  /* .globalLeadPastor {
-    font-size: 40px;
-    width: 77%;
-  } */
-
   .leadPastor {
     padding: 20px;
   }
