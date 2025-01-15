@@ -12,8 +12,8 @@ import { LiaTimesSolid } from "react-icons/lia";
 const MENU_ITEMS = {
   primary: [
     { name: "About", href: "/about" },
-    { name: "Blog", href: "/blog" },
-    { name: "E-Library", href: "/library" },
+    // { name: "Blog", href: "/blog" },
+    // { name: "E-Library", href: "/library" },
   ],
   secondary: [
     { name: "Our Pastor", href: "/pastor" },

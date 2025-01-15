@@ -73,9 +73,9 @@ function Contact() {
       <Navigation />
       <div className={styles.contactContainer}>
         <div className={style.aboutHeaderJumbo}>
-          <h4 className={style.aboutHeaderLabel}>Contact Us</h4>
+          <h4 className={style.aboutHeaderLabel}>Testimony</h4>
 
-          <h2 className={style.aboutHeaderTitle}>Get Connected with us</h2>
+          <h2 className={style.aboutHeaderTitle}>Share your Testimony</h2>
         </div>
       </div>
       <main className={styles.contactMain}>
@@ -135,7 +135,7 @@ function Contact() {
           </div>
           <div className={styles.contactImage}></div>
           <div className={styles.contactForm}>
-            <h3 className={styles.contactUs}>Contact us</h3>
+            <h3 className={styles.contactUs}>Testify</h3>
 
             <form
               action="https://formspree.io/f/moqyqzqk"
