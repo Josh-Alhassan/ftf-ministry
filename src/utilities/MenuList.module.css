@@ -26,4 +26,8 @@
     flex-direction: column;
     gap: 40px;
   }
+
+  .active {
+    border-bottom: none;
+  }
 }
