@@ -10,11 +10,8 @@ function GIve() {
   return (
     <>
       <div className={style.give}>
-        <Navigation />
-        <div
-          style={{ padding: "90px", textAlign: "center" }}
-          className={style.giveContainer}
-        >
+        {/* <Navigation /> */}
+        <div style={{ textAlign: "center" }} className={style.giveContainer}>
           <SecondaryHeader
             textTransform="capitalize"
             color="#FFF"

@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center;
 
-  padding: 50px 350px;
+  padding: 50px 0;
 }
 
 .giveContainer {
@@ -17,6 +17,8 @@
   gap: 20px;
 
   margin: 0 auto;
+
+  padding: 90px;
 }
 
 .giveText {
@@ -33,3 +35,25 @@
 /* .giveMain {
   
 } */
+
+@media screen and (max-width: 768px) {
+  .giveText {
+    font-size: 24px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .giveContainer {
+    padding: 40px;
+  }
+  .giveText {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .giveContainer {
+    padding: 50px 20px;
+  }
+}

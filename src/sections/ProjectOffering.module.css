@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   column-gap: 150px;
 
-  padding: 100px 350px;
+  padding: 100px;
 }
 
 .projectOfferingTitle {
@@ -27,4 +27,47 @@
   font-size: 30px;
   font-family: Alegreya;
   font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .projectOfferingContainer {
+    column-gap: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projectOfferingContainer {
+    column-gap: 50px;
+    padding: 50px;
+  }
+
+  .projectOfferingTitle {
+    font-size: 36px;
+  }
+
+  .paragraphOfferingSubTitle {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projectOfferingContainer {
+    grid-template-columns: 1fr;
+    row-gap: 50px;
+    /* padding: 50px; */
+  }
+
+  .projectOfferingTitle {
+    font-size: 30px;
+  }
+
+  .paragraphOfferingSubTitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .projectOfferingContainer {
+    padding: 50px 20px;
+  }
 }
