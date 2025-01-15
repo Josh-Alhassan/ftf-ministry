@@ -1,39 +1,7 @@
-/* .menuNavigation {
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-}
-
-.listItem {
-  font-size: 16px;
-  padding-bottom: 10px;
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  color: #fff;
-  text-decoration: none;
-}
-
-.listItem:hover {
-  color: #ff5c35;
-  border-bottom: 5px solid #ff5c35;
-  transition: ease 0.2s;
-}
-
-.active {
-  color: #ff5c35;
-  border-bottom: 5px solid #ff5c35;
-}
-
-@media screen and (max-width: 1024px) {
-  .menuNavigation {
-    gap: 50px;
-  }
-} */
-
 .menuNavigation {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  flex-direction: row;
+  gap: 50px;
 }
 
 .listItem {
@@ -53,9 +21,9 @@
   border-bottom: 2px solid #ff5c35;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .menuNavigation {
-    flex-direction: row;
+    flex-direction: column;
     gap: 40px;
   }
 }

@@ -5,5 +5,17 @@
   background-size: cover;
   background-position: center;
 
-  /* padding: 50px 350px; */
+  padding-top: 250px;
+}
+
+@media screen and (max-width: 769px) {
+  .blog {
+    padding-top: 200px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .blog {
+    padding-top: 150px;
+  }
 }

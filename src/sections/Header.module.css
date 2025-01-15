@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 448px) {
   .headerContainer {
-    padding: 100px 0 250px 0;
+    padding: 0px 0 250px 0;
   }
   .headerHeroHeader {
     font-size: 38px;

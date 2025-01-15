@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import MenuList from "../utilities/MenuList";
+import LogoIcon from "../utilities/LogoIcon";
 import style from "./Navigation.module.css";
 
 import ftf from "../assets/logo-2-preview.png";
 import { FaBars } from "react-icons/fa6";
-import { FaTimes } from "react-icons/fa";
+import { LiaTimesSolid } from "react-icons/lia";
 
 const MENU_ITEMS = {
   primary: [
@@ -29,7 +30,7 @@ function Navigation() {
   return (
     <nav className={style.navigation}>
       <div className={style.menuIcon} onClick={toggleMenu}>
-        {isMenuOpen ? <FaTimes /> : <FaBars />}
+        {isMenuOpen ? <LiaTimesSolid /> : <FaBars />}
       </div>
       <Link to="/" className={style.logoContainer}>
         <img src={ftf} alt="Logo" className={style.logo} />
@@ -47,45 +48,3 @@ function Navigation() {
 }
 
 export default Navigation;
-
-// import React from "react";
-// import { Link } from "react-router-dom";
-
-// import MenuList from "../utilities/MenuList";
-// import LogoIcon from "../utilities/LogoIcon";
-// import style from "./Navigation.module.css";
-
-// import ftf from "../assets/logo-3-preview.png";
-// import { FaBars } from "react-icons/fa6";
-
-// const MENU_ITEMS = {
-//   primary: [
-//     { name: "About", href: "/about" },
-//     { name: "Blog", href: "/blog" },
-//     { name: "E-Library", href: "/library" },
-//   ],
-//   secondary: [
-//     { name: "Our Pastor", href: "/pastor" },
-//     { name: "Contact", href: "/contact" },
-//     { name: "Give", href: "/give", highlight: true },
-//   ],
-// };
-
-// function Navigation() {
-//   return (
-//     <>
-//       <div className={style.navigation}>
-//         <div className={style.menuIcon}>
-//           <FaBars />
-//         </div>
-//         <MenuList menuItems={MENU_ITEMS.primary} />
-//         <Link to="/">
-//           <img src={ftf} alt="ftf" className={style.logo} />
-//         </Link>
-//         <MenuList menuItems={MENU_ITEMS.secondary} />
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Navigation;

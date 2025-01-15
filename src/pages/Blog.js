@@ -8,10 +8,9 @@ import BlogPage from "../sections/BlogPage";
 const Blog = ({ title }) => {
   return (
     <>
+      <Navigation />
       <div className={style.blog}>
-        <Navigation />
-
-        <div style={{ padding: "90px", textAlign: "center" }}>
+        <div style={{ padding: "90px", margin: "0 auto" }}>
           <SecondaryHeader
             textTransform="capitalize"
             color="#FFF"

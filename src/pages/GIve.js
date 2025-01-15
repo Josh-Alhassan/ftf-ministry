@@ -9,8 +9,8 @@ import Footer from "../sections/Footer";
 function GIve() {
   return (
     <>
+      <Navigation />
       <div className={style.give}>
-        {/* <Navigation /> */}
         <div style={{ textAlign: "center" }} className={style.giveContainer}>
           <SecondaryHeader
             textTransform="capitalize"

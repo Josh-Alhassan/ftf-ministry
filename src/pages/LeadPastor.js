@@ -59,13 +59,8 @@ const LeadPastor = () => {
 
   return (
     <>
+      <Navigation />
       <div className={style.blog}>
-        {/* <Navigation /> */}
-        {/* <div className={styles.hero}>
-          <p className={styles.ourProphet}>Our Prophet</p>
-          <h1 className={styles.globalLeadPastor}>Our Global Lead Pastor</h1>
-        </div> */}
-
         <PrimaryHeader subTitle="Our Prophet" title="Our Global Lead Pastor" />
       </div>
 

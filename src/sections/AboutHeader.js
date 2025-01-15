@@ -5,18 +5,19 @@ import style from "./AboutHeader.module.css";
 
 function AboutHeader() {
   return (
-    <div className={style.aboutHeaderContainer}>
-      {/* <Navigation /> */}
+    <>
+      <Navigation />
+      <div className={style.aboutHeaderContainer}>
+        <div className={style.aboutHeaderJumbo}>
+          <h4 className={style.aboutHeaderLabel}>About FaithFul</h4>
 
-      <div className={style.aboutHeaderJumbo}>
-        <h4 className={style.aboutHeaderLabel}>About FaithFul</h4>
-
-        <h2 className={style.aboutHeaderTitle}>
-          A few Words <br /> About Us
-        </h2>
-        {/* <p className={style.aboutHeaderParagraph}></p> */}
+          <h2 className={style.aboutHeaderTitle}>
+            A few Words <br /> About Us
+          </h2>
+          {/* <p className={style.aboutHeaderParagraph}></p> */}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

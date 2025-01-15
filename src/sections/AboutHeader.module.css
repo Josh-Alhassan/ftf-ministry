@@ -3,7 +3,7 @@
 
   background-size: cover;
   background-position: bottom;
-  /* padding: 50px 350px; */
+  padding-top: 250px;
   color: #fff;
 }
 
@@ -42,6 +42,9 @@
 }
 
 @media screen and (max-width: 769px) {
+  .aboutHeaderContainer {
+    padding-top: 200px;
+  }
   .aboutHeaderJumbo {
     max-width: 80%;
     padding-top: 150px;
@@ -53,6 +56,9 @@
 }
 
 @media screen and (max-width: 448px) {
+  .aboutHeaderContainer {
+    padding-top: 100px;
+  }
   .aboutHeaderTitle {
     font-size: 42px;
   }

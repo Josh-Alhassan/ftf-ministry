@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "boxicons";
 
@@ -10,10 +10,68 @@ import Footer from "../sections/Footer";
 import PrimaryHeader from "../utilities/PrimaryHeader";
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    firstname: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState({
+    success: false,
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setSubmitStatus({ success: false, message: "" });
+
+    try {
+      const response = await fetch("https://formspree.io/f/moqyqzqk", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitStatus({
+          success: true,
+          message: "Thank you for your message. We will get back to you soon!",
+        });
+        setFormData({
+          firstname: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      } else {
+        throw new Error("Failed to send message");
+      }
+    } catch (error) {
+      setSubmitStatus({
+        success: false,
+        message: "Failed to send message. Please try again later.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <>
+      <Navigation />
       <div className={styles.contactContainer}>
-        {/* <Navigation /> */}
         <div className={style.aboutHeaderJumbo}>
           <h4 className={style.aboutHeaderLabel}>Contact Us</h4>
 

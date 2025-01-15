@@ -4,28 +4,29 @@ import Navigation from "../components/Navigation";
 
 function ELibrary() {
   return (
-    <div
-      style={{
-        backgroundColor: "#333333",
-
-        padding: "50px 350px",
-      }}
-    >
+    <>
       <Navigation />
-
       <div
         style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          height: "840px",
+          backgroundColor: "#333333",
+
+          paddingTop: "250px",
         }}
       >
-        <SecondaryHeader textAlign="center" color="#fff">
-          Coming Soon!
-        </SecondaryHeader>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            height: "840px",
+          }}
+        >
+          <SecondaryHeader textAlign="center" color="#fff">
+            Coming Soon!
+          </SecondaryHeader>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
