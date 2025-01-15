@@ -1,11 +1,11 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import style from "./MenuList.module.css";
-import { NavLink } from "react-router-dom";
 
 function MenuList({ menuItems }) {
   return (
-    <div className={style.navigation}>
+    <div className={style.menuNavigation}>
       {menuItems.map((item) => (
         <NavLink
           key={item.name}
@@ -22,3 +22,28 @@ function MenuList({ menuItems }) {
 }
 
 export default MenuList;
+
+// import React from "react";
+
+// import style from "./MenuList.module.css";
+// import { NavLink } from "react-router-dom";
+
+// function MenuList({ menuItems }) {
+//   return (
+//     <div className={style.menuNavigation}>
+//       {menuItems.map((item) => (
+//         <NavLink
+//           key={item.name}
+//           to={item.href}
+//           className={({ isActive }) =>
+//             `${style.listItem} ${isActive ? style.active : ""}`
+//           }
+//         >
+//           {item.name}
+//         </NavLink>
+//       ))}
+//     </div>
+//   );
+// }
+
+// export default MenuList;

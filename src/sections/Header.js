@@ -7,7 +7,7 @@ import PrimaryButton from "../utilities/PrimaryButton";
 function Header() {
   return (
     <div className={style.headerContainer}>
-      {/* <Navigation /> */}
+      <Navigation />
 
       <div className={style.headerHeroSection}>
         <h1 className={style.headerHeroHeader}>
