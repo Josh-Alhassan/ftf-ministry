@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 import style from "./Card.module.css";
 import SecondaryButton from "./SecondaryButton";
@@ -33,5 +34,14 @@ function Card({
     </div>
   );
 }
+
+// Define PropTypes for Card
+Card.propTypes = {
+  secondaryHeading: PropTypes.string.isRequired,
+  primaryHeading: PropTypes.string.isRequired,
+  paragraph: PropTypes.string.isRequired,
+  backgroundColor: PropTypes.string.isRequired,
+  hoverBackgroundColor: PropTypes.string.isRequired,
+};
 
 export default Card;
