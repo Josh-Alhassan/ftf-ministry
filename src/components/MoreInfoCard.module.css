@@ -1,5 +1,5 @@
 .moreInfoCard {
-  max-width: 57%;
+  max-width: 60%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 

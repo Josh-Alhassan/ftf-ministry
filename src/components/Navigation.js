@@ -13,7 +13,11 @@ const MENU_ITEMS = {
   primary: [
     { name: "About", href: "/about" },
     // { name: "Blog", href: "/blog" },
-    // { name: "E-Library", href: "/library" },
+    {
+      name: "E-Library",
+      href: "https://ftfministry.mixlr.com/recordings",
+      target: "_blank",
+    },
   ],
   secondary: [
     { name: "Our Pastor", href: "/pastor" },
